@@ -33,8 +33,4 @@ describe('Employee', () => {
       expect(err).not.to.exist;
     })
   });
-  
-  after(() => {
-    mongoose.models = {};
-  });
 });
